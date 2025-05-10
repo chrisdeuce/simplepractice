@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+sdist/
+*.egg-info/
+*.whl
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# PyInstaller
+#  Usually these files are built before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+*.log
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.db
+*.sqlite3
+*.makemigrations
+
+# User-specific stuff:
+.vscode/
+*.user
+*.swp
+*.idea/
+
+# folders
+tests/__pycache__
+pages/__pycache__
+
+.pytest_cache
